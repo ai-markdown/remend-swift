@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -20,3 +21,8 @@ if (hash(bytes) !== manifest.resultsSHA256) throw new Error('Oracle results chan
 const result = JSON.parse(bytes);
 if (result.cases.length !== manifest.caseCount || result.helperCases.length !== manifest.helperCount || result.wordCases.length !== manifest.wordCount) throw new Error('Oracle counts differ from manifest');
 console.log(`Verified remend ${baseline.upstreamVersion}: ${manifest.caseCount} repairs, ${manifest.helperCount} positions, ${manifest.wordCount} word cases`);
+
+execFileSync(process.execPath, [path.join(root, 'scripts/upstream-tests/verify.mjs')], { stdio: 'inherit' });
+if (process.argv.includes('--with-swift-contract')) {
+  execFileSync('bash', [path.join(root, 'scripts/upstream-tests/verify-string-input-contract.sh')], { stdio: 'inherit' });
+}

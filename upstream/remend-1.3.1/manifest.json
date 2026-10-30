@@ -11,5 +11,13 @@
     "index.d.ts": "7e68a35f4ea6467f82cf29ada0bd9f9a279d9f9d4ee1637d81067d79039afc13",
     "LICENSE": "b4f9adb7c568904834d0dd6cc98d16c390d21ca32fc17ae7a267715269bd5529",
     "package.json": "c9e19f4b0f4904a7d96d9dffcc3441f439fc6880193fdbd5de9d12d47562c869"
+  },
+  "sourceSnapshot": {
+    "path": "source-manifest.json",
+    "sha256": "aa25453d9f07bb088916a058ede90a3b44c65041cb2a9674ffa443ff579d7d09",
+    "upstreamTag": "remend@1.3.1",
+    "upstreamCommit": "8a2ac221a878a0fc5839f2035c1e16575cfa3440",
+    "testInventoryPath": "test-inventory.json",
+    "upstreamValidationPath": "upstream-validation.json"
   }
 }

@@ -51,6 +51,8 @@ Applications with their own LaTeX preprocessing can explicitly select `katex: fa
 
 The `upstream` branch records an **import of the published npm remend 1.3.1 distribution**, not the complete `vercel/streamdown` Git history. The `ai-markdown` branch maintains the native Swift implementation on that auditable baseline. The original distribution, declarations, package metadata, license notice, and exact SHA-256 hashes are stored under `upstream/remend-1.3.1/`.
 
+The fixed `remend@1.3.1` tag resolves to [`8a2ac221a878a0fc5839f2035c1e16575cfa3440`](https://github.com/vercel/streamdown/tree/8a2ac221a878a0fc5839f2035c1e16575cfa3440/packages/remend). Its complete package source and tests, plus the root lockfile and build context, are frozen under `upstream/remend-1.3.1/repository/`. `manifest.json` links a hashed source manifest, declaration inventory, migration map, and original validation record. Rebuilding this tag with its original lockfile produced JavaScript and TypeScript declarations byte-identical to the published distribution. All 489 original Vitest cases passed unchanged.
+
 The runtime has one Swift implementation. The frozen JavaScript file is test provenance and an optional oracle-generation input; it is not compiled into or invoked by the library.
 
 Source and test directories mirror responsibilities under `API`, `Formatting`, and `Support`; frozen inputs are kept in `Tests/RemendTests/Fixtures`.
@@ -62,7 +64,7 @@ From a standalone clone:
 ```bash
 swift build
 swift test
-node scripts/verify-oracle.mjs
+node scripts/verify-oracle.mjs --with-swift-contract
 ```
 
 Node is only needed to verify or regenerate frozen evidence, not to build or run Swift tests. To regenerate the oracle against the already-frozen upstream distribution:
@@ -72,7 +74,11 @@ node scripts/generate-oracle.mjs
 node scripts/verify-oracle.mjs
 ```
 
-The Swift suite checks **16,913 exact repair outputs**, **1,524 helper-position cases**, and **16 word-character cases** from the real remend 1.3.1 runtime. Cases cover all supported switches, both math handlers and their ordering, partial delimiters, escaped/code-contained math, default protocol versus text-only links, custom-handler priorities, Unicode/CRLF/grapheme-boundary differences, and deterministic mixed-input fuzzing. Additional focused tests cover throwing handlers, concurrency, non-total priority inputs, and 10,000 replacements with code-region exclusions.
+The 26 original test files contain **477 test declarations, expanding to 489 cases**. The Swift migration preserves **476 runtime declarations, expanding to 488 cases**, with the original inputs, expected outputs, and assertions. One original JavaScript invalid-input test is adapted to Swift’s static `String` contract: a compiler check accepts a valid string and rejects `nil`, `Optional<String>`, and integer inputs. It is verified separately, not skipped or counted as a runtime test. The 26 upstream benchmark declarations are frozen and inventoried separately; they have not been migrated and are not included in these functional-test counts.
+
+The migration inventory maps every original test to its Swift function or compiler evidence. The aggregate verifier requires complete mappings, checks all frozen hashes and original validation results, and verifies each mapped target exists. CI runs the compiler contract on macOS and Linux in addition to `swift test`; its frozen-evidence job checks the source and migration inventories. Maintainer reproduction steps are in [scripts/upstream-tests/README.md](scripts/upstream-tests/README.md).
+
+In addition, the Swift suite checks **16,913 exact repair outputs**, **1,524 helper-position cases**, and **16 word-character cases** from the real remend 1.3.1 runtime. Cases cover all supported switches, both math handlers and their ordering, partial delimiters, escaped/code-contained math, default protocol versus text-only links, custom-handler priorities, Unicode/CRLF/grapheme-boundary differences, and deterministic mixed-input fuzzing. Additional focused tests cover throwing handlers, concurrency, non-total priority inputs, and 10,000 replacements with code-region exclusions.
 
 Per-input immutable scanner indexes and ordered replacement assembly avoid quadratic costs introduced by repeatedly scanning prefixes or moving mutable buffer tails. This is not a linear-time guarantee for every upstream repair rule or a formal performance acceptance result.
 

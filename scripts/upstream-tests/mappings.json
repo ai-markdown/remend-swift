@@ -1,0 +1,2394 @@
+{
+  "__tests__/bold-italic.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/bold-italic.test.ts:12": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/bold-italic.test.ts:17": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/bold-italic.test.ts:22": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/bold-italic.test.ts:28": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/bold-italic.test.ts:34": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/bold-italic.test.ts:40": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/bold-italic.test.ts:46": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/bold-italic.test.ts:62": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/bold-italic.test.ts:85": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldItalicTests.swift",
+    "symbol": "UpstreamBoldItalicTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/bold.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldTests.swift",
+    "symbol": "UpstreamBoldTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/bold.test.ts:10": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldTests.swift",
+    "symbol": "UpstreamBoldTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/bold.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldTests.swift",
+    "symbol": "UpstreamBoldTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/bold.test.ts:20": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldTests.swift",
+    "symbol": "UpstreamBoldTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/bold.test.ts:24": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldTests.swift",
+    "symbol": "UpstreamBoldTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/bold.test.ts:28": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBoldTests.swift",
+    "symbol": "UpstreamBoldTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:8": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:20": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:24": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:29": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:35": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:40": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:46": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:52": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:59": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:66": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:73": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:78": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:88": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:98": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:111": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:127": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:169": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test018",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:186": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test019",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:199": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test020",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:215": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test021",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:232": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test022",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:244": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test023",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:256": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test024",
+    "status": "direct-port"
+  },
+  "__tests__/code-blocks.test.ts:273": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamCodeBlocksTests.swift",
+    "symbol": "UpstreamCodeBlocksTests.test025",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:9": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:13": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:17": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:22": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:27": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:31": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:35": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:51": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:61": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:66": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:71": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:75": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:80": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:84": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:90": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/comparison-operators.test.ts:96": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamComparisonOperatorsTests.swift",
+    "symbol": "UpstreamComparisonOperatorsTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:10": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:44": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:50": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:56": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:61": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:69": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:75": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:80": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/edge-cases.test.ts:85": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamEdgeCasesTests.swift",
+    "symbol": "UpstreamEdgeCasesTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:11": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:17": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:23": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:29": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:35": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:47": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:53": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:61": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:67": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:72": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:77": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:82": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:87": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:97": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:103": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:110": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:118": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test018",
+    "status": "direct-port"
+  },
+  "__tests__/horizontal-rules.test.ts:123": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHorizontalRulesTests.swift",
+    "symbol": "UpstreamHorizontalRulesTests.test019",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:12": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:18": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:25": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:32": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:39": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:44": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:48": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:54": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:61": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:65": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/html-tags.test.ts:77": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamHtmlTagsTests.swift",
+    "symbol": "UpstreamHtmlTagsTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/images.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamImagesTests.swift",
+    "symbol": "UpstreamImagesTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/images.test.ts:10": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamImagesTests.swift",
+    "symbol": "UpstreamImagesTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/images.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamImagesTests.swift",
+    "symbol": "UpstreamImagesTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/images.test.ts:21": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamImagesTests.swift",
+    "symbol": "UpstreamImagesTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/images.test.ts:29": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamImagesTests.swift",
+    "symbol": "UpstreamImagesTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:10": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:20": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:25": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:30": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:35": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:40": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:60": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:68": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:73": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:79": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:85": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/inline-code.test.ts:91": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamInlineCodeTests.swift",
+    "symbol": "UpstreamInlineCodeTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/intraword-asterisk.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamIntrawordAsteriskTests.swift",
+    "symbol": "UpstreamIntrawordAsteriskTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/intraword-asterisk.test.ts:24": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamIntrawordAsteriskTests.swift",
+    "symbol": "UpstreamIntrawordAsteriskTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/intraword-asterisk.test.ts:30": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamIntrawordAsteriskTests.swift",
+    "symbol": "UpstreamIntrawordAsteriskTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/intraword-asterisk.test.ts:35": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamIntrawordAsteriskTests.swift",
+    "symbol": "UpstreamIntrawordAsteriskTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/intraword-asterisk.test.ts:40": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamIntrawordAsteriskTests.swift",
+    "symbol": "UpstreamIntrawordAsteriskTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:10": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:19": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:30": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:35": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:40": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:44": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:58": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:68": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:73": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:80": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:85": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:90": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:94": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:102": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:118": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:123": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test018",
+    "status": "direct-port"
+  },
+  "__tests__/italic.test.ts:138": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamItalicTests.swift",
+    "symbol": "UpstreamItalicTests.test019",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:14": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:19": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:24": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:39": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:44": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:54": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:77": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:84": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:89": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:94": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:108": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:117": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/links.test.ts:130": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamLinksTests.swift",
+    "symbol": "UpstreamLinksTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:10": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:20": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:25": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:35": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:40": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:45": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:50": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:55": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:61": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/lists.test.ts:89": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamListsTests.swift",
+    "symbol": "UpstreamListsTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:10": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:14": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:19": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:25": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:31": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:35": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:40": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:45": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:50": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:59": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:64": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/mixed-formatting.test.ts:70": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamMixedFormattingTests.swift",
+    "symbol": "UpstreamMixedFormattingTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:13": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:19": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:25": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:31": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:38": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:45": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:52": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:58": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:74": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:80": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:87": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:93": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:100": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:107": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:114": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:130": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:142": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test018",
+    "status": "direct-port"
+  },
+  "__tests__/setext-heading.test.ts:154": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSetextHeadingTests.swift",
+    "symbol": "UpstreamSetextHeadingTests.test019",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:9": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:13": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:17": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:21": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:26": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:30": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:34": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:38": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:42": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:46": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:52": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/single-tilde.test.ts:56": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamSingleTildeTests.swift",
+    "symbol": "UpstreamSingleTildeTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/streaming.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamStreamingTests.swift",
+    "symbol": "UpstreamStreamingTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/streaming.test.ts:13": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamStreamingTests.swift",
+    "symbol": "UpstreamStreamingTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/streaming.test.ts:19": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamStreamingTests.swift",
+    "symbol": "UpstreamStreamingTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/streaming.test.ts:23": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamStreamingTests.swift",
+    "symbol": "UpstreamStreamingTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/streaming.test.ts:29": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamStreamingTests.swift",
+    "symbol": "UpstreamStreamingTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/streaming.test.ts:36": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamStreamingTests.swift",
+    "symbol": "UpstreamStreamingTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/streaming.test.ts:43": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamStreamingTests.swift",
+    "symbol": "UpstreamStreamingTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/streaming.test.ts:61": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamStreamingTests.swift",
+    "symbol": "UpstreamStreamingTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/strikethrough.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamStrikethroughTests.swift",
+    "symbol": "UpstreamStrikethroughTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/strikethrough.test.ts:10": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamStrikethroughTests.swift",
+    "symbol": "UpstreamStrikethroughTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/strikethrough.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamStrikethroughTests.swift",
+    "symbol": "UpstreamStrikethroughTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/strikethrough.test.ts:20": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamStrikethroughTests.swift",
+    "symbol": "UpstreamStrikethroughTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/strikethrough.test.ts:24": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamStrikethroughTests.swift",
+    "symbol": "UpstreamStrikethroughTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:9": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:15": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:21": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:27": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:33": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:39": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:47": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:53": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:59": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:67": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:73": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:79": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:85": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:91": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:97": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:103": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:111": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:117": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test018",
+    "status": "direct-port"
+  },
+  "__tests__/underscore-bug.test.tsx:123": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamUnderscoreBugTests.swift",
+    "symbol": "UpstreamUnderscoreBugTests.test019",
+    "status": "direct-port"
+  },
+  "__tests__/basic-input.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamBasicInputTests.swift",
+    "symbol": "verify-string-input-contract.sh",
+    "status": "type-system-adaptation",
+    "note": "Swift String rejects nil, Optional<String> absence, and integer inputs at compile time; no Any overload or skipped runtime test is introduced.",
+    "evidenceFiles": [
+      "scripts/upstream-tests/verify-string-input-contract.sh"
+    ]
+  },
+  "__tests__/basic-input.test.ts:11": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamBasicInputTests.swift",
+    "symbol": "UpstreamBasicInputTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/basic-input.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamBasicInputTests.swift",
+    "symbol": "UpstreamBasicInputTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:5": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:10": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:15": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:20": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:24": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:28": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:35": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:41": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:47": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:53": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:58": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:63": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:68": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:73": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:78": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:83": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:104": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:109": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test018",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:114": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test019",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:118": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test020",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:124": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test021",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:140": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test022",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:145": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test023",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:150": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test024",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:155": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test025",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:160": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test026",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:165": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test027",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:171": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test028",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:180": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test029",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:188": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test030",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:196": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test031",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:206": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test032",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:214": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test033",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:219": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test034",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:227": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test035",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:235": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test036",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:240": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test037",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:245": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test038",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:251": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test039",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:256": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test040",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:261": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test041",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:268": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test042",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:273": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test043",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:279": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test044",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:284": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test045",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:291": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test046",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:299": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test047",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:307": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test048",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:315": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test049",
+    "status": "direct-port"
+  },
+  "__tests__/katex.test.ts:327": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamKatexTests.swift",
+    "symbol": "UpstreamKatexTests.test050",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:9": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:13": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:20": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:26": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:33": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:38": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:43": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:51": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:56": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/utils.test.ts:61": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamUtilsTests.swift",
+    "symbol": "UpstreamUtilsTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:12": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:18": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:24": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:30": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:34": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:40": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:44": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:48": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:52": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:58": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:64": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:68": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:74": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:78": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:84": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:92": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:96": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:100": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test018",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:106": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test019",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:114": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test020",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:118": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test021",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:124": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test022",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:128": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test023",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:134": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test024",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:138": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test025",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:144": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test026",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:148": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test027",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:152": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test028",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:156": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test029",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:160": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test030",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:164": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test031",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:168": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test032",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:172": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test033",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:176": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test034",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:182": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test035",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:188": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test036",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:194": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test037",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:200": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test038",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:206": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test039",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:214": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test040",
+    "status": "direct-port"
+  },
+  "__tests__/coverage-gaps.test.ts:218": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCoverageGapTests.swift",
+    "symbol": "UpstreamCoverageGapTests.test041",
+    "status": "direct-port"
+  },
+  "__tests__/code-block-utils.test.ts:43": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCodeBlockUtilsTests.swift",
+    "symbol": "UpstreamCodeBlockUtilsTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/code-block-utils.test.ts:50": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCodeBlockUtilsTests.swift",
+    "symbol": "UpstreamCodeBlockUtilsTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/code-block-utils.test.ts:56": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCodeBlockUtilsTests.swift",
+    "symbol": "UpstreamCodeBlockUtilsTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/code-block-utils.test.ts:61": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCodeBlockUtilsTests.swift",
+    "symbol": "UpstreamCodeBlockUtilsTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/code-block-utils.test.ts:67": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCodeBlockUtilsTests.swift",
+    "symbol": "UpstreamCodeBlockUtilsTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/code-block-utils.test.ts:80": {
+    "swiftFile": "Tests/RemendTests/Support/UpstreamCodeBlockUtilsTests.swift",
+    "symbol": "UpstreamCodeBlockUtilsTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:14": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:23": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:33": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test003",
+    "status": "direct-port",
+    "note": "Mutable JavaScript arrays are represented by a locked Swift trace to satisfy @Sendable; original order assertions are unchanged."
+  },
+  "__tests__/custom-handlers.test.ts:58": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test004",
+    "status": "direct-port",
+    "note": "Mutable JavaScript arrays are represented by a locked Swift trace to satisfy @Sendable; original order assertions are unchanged."
+  },
+  "__tests__/custom-handlers.test.ts:75": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:89": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test006",
+    "status": "direct-port",
+    "note": "Mutable JavaScript arrays are represented by a locked Swift trace to satisfy @Sendable; original order assertions are unchanged."
+  },
+  "__tests__/custom-handlers.test.ts:115": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:127": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:149": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:156": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:161": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:168": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:173": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:180": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:185": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:192": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:199": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:208": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test018",
+    "status": "direct-port"
+  },
+  "__tests__/custom-handlers.test.ts:227": {
+    "swiftFile": "Tests/RemendTests/API/UpstreamCustomHandlerTests.swift",
+    "symbol": "UpstreamCustomHandlerTests.test019",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:6": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test001",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:13": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test002",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:19": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test003",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:26": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test004",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:32": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test005",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:40": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test006",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:46": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test007",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:51": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test008",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:56": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test009",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:62": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test010",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:74": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test011",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:80": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test012",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:86": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test013",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:93": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test014",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:102": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test015",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:107": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test016",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:114": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test017",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:120": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test018",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:125": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test019",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:133": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test020",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:138": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test021",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:143": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test022",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:148": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test023",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:157": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test024",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:163": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test025",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:167": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test026",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:173": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test027",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:180": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test028",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:184": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test029",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:190": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test030",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:194": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test031",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:201": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test032",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:206": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test033",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:210": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test034",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:218": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test035",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:225": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test036",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:230": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test037",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:234": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test038",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:238": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test039",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:245": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test040",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:250": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test041",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:254": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test042",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:258": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test043",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:263": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test044",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:269": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test045",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:278": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test046",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:282": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test047",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:286": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test048",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:290": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test049",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:294": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test050",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:303": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test051",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:307": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test052",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:311": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test053",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:315": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test054",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:322": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test055",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:329": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test056",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:336": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test057",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:346": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test058",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:350": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test059",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:354": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test060",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:358": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test061",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:362": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test062",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:369": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test063",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:373": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test064",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:377": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test065",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:381": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test066",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:388": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test067",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:393": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test068",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:398": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test069",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:403": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test070",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:411": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test071",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:418": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test072",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:425": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test073",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:429": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test074",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:435": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test075",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:444": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test076",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:450": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test077",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:455": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test078",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:464": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test079",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:468": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test080",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:472": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test081",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:476": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test082",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:480": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test083",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:484": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test084",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:491": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test085",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:495": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test086",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:499": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test087",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:510": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test088",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:516": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test089",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:522": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test090",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:530": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test091",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:536": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test092",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:543": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test093",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:549": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test094",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:555": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test095",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:561": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test096",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:567": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test097",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:573": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test098",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:579": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test099",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:583": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test100",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:589": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test101",
+    "status": "direct-port"
+  },
+  "__tests__/broken-markdown-variants.test.ts:596": {
+    "swiftFile": "Tests/RemendTests/Formatting/UpstreamBrokenMarkdownVariantsTests.swift",
+    "symbol": "UpstreamBrokenMarkdownVariantsTests.test102",
+    "status": "direct-port"
+  }
+}

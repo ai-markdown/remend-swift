@@ -1,0 +1,2634 @@
+{
+  "schemaVersion": 1,
+  "upstreamCommit": "8a2ac221a878a0fc5839f2035c1e16575cfa3440",
+  "upstreamTag": "remend@1.3.1",
+  "toolchain": {
+    "node": "v24.22.0",
+    "packageManager": "pnpm@10.30.3",
+    "vitest": "4.1.10",
+    "tsup": "8.5.1",
+    "typescript": "5.9.3"
+  },
+  "testFiles": [
+    {
+      "file": "__tests__/basic-input.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should return non-string inputs unchanged",
+          "fullName": "basic input handling should return non-string inputs unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should return empty string unchanged",
+          "fullName": "basic input handling should return empty string unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should return regular text unchanged",
+          "fullName": "basic input handling should return regular text unchanged",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/bold-italic.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should complete incomplete bold-italic formatting",
+          "fullName": "bold-italic formatting (***) should complete incomplete bold-italic formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete bold-italic formatting unchanged",
+          "fullName": "bold-italic formatting (***) should keep complete bold-italic formatting unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple bold-italic sections",
+          "fullName": "bold-italic formatting (***) should handle multiple bold-italic sections",
+          "status": "passed"
+        },
+        {
+          "title": "should complete odd number of triple asterisk markers",
+          "fullName": "bold-italic formatting (***) should complete odd number of triple asterisk markers",
+          "status": "passed"
+        },
+        {
+          "title": "should not confuse triple asterisks with single or double",
+          "fullName": "bold-italic formatting (***) should not confuse triple asterisks with single or double",
+          "status": "passed"
+        },
+        {
+          "title": "should handle triple asterisks at start of text",
+          "fullName": "bold-italic formatting (***) should handle triple asterisks at start of text",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested formatting with triple asterisks",
+          "fullName": "bold-italic formatting (***) should handle nested formatting with triple asterisks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle bold-italic chunks",
+          "fullName": "bold-italic formatting (***) should handle bold-italic chunks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle text ending with multiple consecutive asterisks",
+          "fullName": "bold-italic formatting (***) should handle text ending with multiple consecutive asterisks",
+          "status": "passed"
+        },
+        {
+          "title": "should not add closing markers to overlapping bold and italic (#302)",
+          "fullName": "bold-italic formatting (***) should not add closing markers to overlapping bold and italic (#302)",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/bold.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should complete incomplete bold formatting",
+          "fullName": "bold formatting (**) should complete incomplete bold formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete bold formatting unchanged",
+          "fullName": "bold formatting (**) should keep complete bold formatting unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple bold sections",
+          "fullName": "bold formatting (**) should handle multiple bold sections",
+          "status": "passed"
+        },
+        {
+          "title": "should complete odd number of bold markers",
+          "fullName": "bold formatting (**) should complete odd number of bold markers",
+          "status": "passed"
+        },
+        {
+          "title": "should handle partial bold text at chunk boundary",
+          "fullName": "bold formatting (**) should handle partial bold text at chunk boundary",
+          "status": "passed"
+        },
+        {
+          "title": "should complete half-complete bold closing marker (#313)",
+          "fullName": "bold formatting (**) should complete half-complete bold closing marker (#313)",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/broken-markdown-variants.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should close italic and strikethrough but not bold when asterisk in content",
+          "fullName": "rapid successive formatting switches should close italic and strikethrough but not bold when asterisk in content",
+          "status": "passed"
+        },
+        {
+          "title": "should close italic and strikethrough when bold pattern blocked",
+          "fullName": "rapid successive formatting switches should close italic and strikethrough when bold pattern blocked",
+          "status": "passed"
+        },
+        {
+          "title": "should close handlers in priority order (bold before strikethrough before code)",
+          "fullName": "rapid successive formatting switches should close handlers in priority order (bold before strikethrough before code)",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold before strikethrough (priority order)",
+          "fullName": "rapid successive formatting switches should close bold before strikethrough (priority order)",
+          "status": "passed"
+        },
+        {
+          "title": "should close italic then bold via bold-italic handler",
+          "fullName": "rapid successive formatting switches should close italic then bold via bold-italic handler",
+          "status": "passed"
+        },
+        {
+          "title": "should not close single asterisk at end (ambiguous)",
+          "fullName": "formatting cut mid-marker should not close single asterisk at end (ambiguous)",
+          "status": "passed"
+        },
+        {
+          "title": "should not close single tilde at end (not a valid marker alone)",
+          "fullName": "formatting cut mid-marker should not close single tilde at end (not a valid marker alone)",
+          "status": "passed"
+        },
+        {
+          "title": "should not close single dollar at end without inlineKatex",
+          "fullName": "formatting cut mid-marker should not close single dollar at end without inlineKatex",
+          "status": "passed"
+        },
+        {
+          "title": "should close single dollar at end with inlineKatex enabled",
+          "fullName": "formatting cut mid-marker should close single dollar at end with inlineKatex enabled",
+          "status": "passed"
+        },
+        {
+          "title": "should handle opening marker + single char of closing",
+          "fullName": "formatting cut mid-marker should handle opening marker + single char of closing",
+          "status": "passed"
+        },
+        {
+          "title": "should not close escaped asterisks",
+          "fullName": "backslash escapes with incomplete formatting should not close escaped asterisks",
+          "status": "passed"
+        },
+        {
+          "title": "should not close double-escaped backslash before asterisk",
+          "fullName": "backslash escapes with incomplete formatting should not close double-escaped backslash before asterisk",
+          "status": "passed"
+        },
+        {
+          "title": "should close escaped double asterisks (remend does not track escape depth)",
+          "fullName": "backslash escapes with incomplete formatting should close escaped double asterisks (remend does not track escape depth)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed escaped and real formatting",
+          "fullName": "backslash escapes with incomplete formatting should handle mixed escaped and real formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should handle two incomplete links",
+          "fullName": "multiple incomplete links should handle two incomplete links",
+          "status": "passed"
+        },
+        {
+          "title": "should handle one complete and one incomplete link",
+          "fullName": "multiple incomplete links should handle one complete and one incomplete link",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested incomplete brackets",
+          "fullName": "multiple incomplete links should handle nested incomplete brackets",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete link in text-only mode",
+          "fullName": "multiple incomplete links should handle incomplete link in text-only mode",
+          "status": "passed"
+        },
+        {
+          "title": "should handle two incomplete links in text-only mode",
+          "fullName": "multiple incomplete links should handle two incomplete links in text-only mode",
+          "status": "passed"
+        },
+        {
+          "title": "should handle bold inside incomplete link URL",
+          "fullName": "link text with formatting markers should handle bold inside incomplete link URL",
+          "status": "passed"
+        },
+        {
+          "title": "should handle italic inside incomplete link URL",
+          "fullName": "link text with formatting markers should handle italic inside incomplete link URL",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code inside incomplete link URL",
+          "fullName": "link text with formatting markers should handle code inside incomplete link URL",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete formatting inside incomplete link text",
+          "fullName": "link text with formatting markers should handle incomplete formatting inside incomplete link text",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold in deeply nested blockquote",
+          "fullName": "nested blockquotes with formatting should close bold in deeply nested blockquote",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold in blockquote with list",
+          "fullName": "nested blockquotes with formatting should close bold in blockquote with list",
+          "status": "passed"
+        },
+        {
+          "title": "should close italic in triple nested blockquote",
+          "fullName": "nested blockquotes with formatting should close italic in triple nested blockquote",
+          "status": "passed"
+        },
+        {
+          "title": "should close strikethrough in blockquote",
+          "fullName": "nested blockquotes with formatting should close strikethrough in blockquote",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold in unchecked task",
+          "fullName": "task lists with formatting should close bold in unchecked task",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete strikethrough in checked task",
+          "fullName": "task lists with formatting should keep complete strikethrough in checked task",
+          "status": "passed"
+        },
+        {
+          "title": "should close italic in unchecked task",
+          "fullName": "task lists with formatting should close italic in unchecked task",
+          "status": "passed"
+        },
+        {
+          "title": "should close inline code in task",
+          "fullName": "task lists with formatting should close inline code in task",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold that appears to span cell boundary",
+          "fullName": "formatting inside table cells should close bold that appears to span cell boundary",
+          "status": "passed"
+        },
+        {
+          "title": "should close inline code that spans cell boundary",
+          "fullName": "formatting inside table cells should close inline code that spans cell boundary",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complete formatting in table cell",
+          "fullName": "formatting inside table cells should handle complete formatting in table cell",
+          "status": "passed"
+        },
+        {
+          "title": "should not strip HTML comment (pattern requires <[a-zA-Z/])",
+          "fullName": "HTML comments and special HTML should not strip HTML comment (pattern requires <[a-zA-Z/])",
+          "status": "passed"
+        },
+        {
+          "title": "should not strip complete script tag with trailing text",
+          "fullName": "HTML comments and special HTML should not strip complete script tag with trailing text",
+          "status": "passed"
+        },
+        {
+          "title": "should strip incomplete div with attributes",
+          "fullName": "HTML comments and special HTML should strip incomplete div with attributes",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete HTML tags",
+          "fullName": "HTML comments and special HTML should keep complete HTML tags",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete HTML comments",
+          "fullName": "HTML comments and special HTML should keep complete HTML comments",
+          "status": "passed"
+        },
+        {
+          "title": "should close block katex with braces inside",
+          "fullName": "KaTeX with complex content should close block katex with braces inside",
+          "status": "passed"
+        },
+        {
+          "title": "should close block katex with latex environments",
+          "fullName": "KaTeX with complex content should close block katex with latex environments",
+          "status": "passed"
+        },
+        {
+          "title": "should close inline katex when enabled",
+          "fullName": "KaTeX with complex content should close inline katex when enabled",
+          "status": "passed"
+        },
+        {
+          "title": "should not treat currency as katex without inlineKatex",
+          "fullName": "KaTeX with complex content should not treat currency as katex without inlineKatex",
+          "status": "passed"
+        },
+        {
+          "title": "should close odd inline katex with currency-like text",
+          "fullName": "KaTeX with complex content should close odd inline katex with currency-like text",
+          "status": "passed"
+        },
+        {
+          "title": "should close multiline block katex with complex content",
+          "fullName": "KaTeX with complex content should close multiline block katex with complex content",
+          "status": "passed"
+        },
+        {
+          "title": "should close second bold after complete bold",
+          "fullName": "consecutive completed + incomplete formatting should close second bold after complete bold",
+          "status": "passed"
+        },
+        {
+          "title": "should close second inline code after complete code",
+          "fullName": "consecutive completed + incomplete formatting should close second inline code after complete code",
+          "status": "passed"
+        },
+        {
+          "title": "should close second strikethrough after complete strikethrough",
+          "fullName": "consecutive completed + incomplete formatting should close second strikethrough after complete strikethrough",
+          "status": "passed"
+        },
+        {
+          "title": "should close second italic after complete italic",
+          "fullName": "consecutive completed + incomplete formatting should close second italic after complete italic",
+          "status": "passed"
+        },
+        {
+          "title": "should close second bold-italic after complete bold-italic",
+          "fullName": "consecutive completed + incomplete formatting should close second bold-italic after complete bold-italic",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold after paragraph break",
+          "fullName": "formatting at paragraph boundaries should close bold after paragraph break",
+          "status": "passed"
+        },
+        {
+          "title": "should close italic after paragraph break",
+          "fullName": "formatting at paragraph boundaries should close italic after paragraph break",
+          "status": "passed"
+        },
+        {
+          "title": "should close formatting after multiple newlines",
+          "fullName": "formatting at paragraph boundaries should close formatting after multiple newlines",
+          "status": "passed"
+        },
+        {
+          "title": "should close inline code across paragraph",
+          "fullName": "formatting at paragraph boundaries should close inline code across paragraph",
+          "status": "passed"
+        },
+        {
+          "title": "should close handlers in priority order with deeply nested formatting",
+          "fullName": "deeply nested formatting should close handlers in priority order with deeply nested formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold-italic then code then strikethrough",
+          "fullName": "deeply nested formatting should close bold-italic then code then strikethrough",
+          "status": "passed"
+        },
+        {
+          "title": "should close italic but not bold when asterisk blocks bold pattern",
+          "fullName": "deeply nested formatting should close italic but not bold when asterisk blocks bold pattern",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold with Chinese text",
+          "fullName": "CJK and Unicode with formatting should close bold with Chinese text",
+          "status": "passed"
+        },
+        {
+          "title": "should close italic with Japanese text",
+          "fullName": "CJK and Unicode with formatting should close italic with Japanese text",
+          "status": "passed"
+        },
+        {
+          "title": "should close inline code with Korean text",
+          "fullName": "CJK and Unicode with formatting should close inline code with Korean text",
+          "status": "passed"
+        },
+        {
+          "title": "should close strikethrough with emoji content",
+          "fullName": "CJK and Unicode with formatting should close strikethrough with emoji content",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold with mixed CJK and Latin",
+          "fullName": "CJK and Unicode with formatting should close bold with mixed CJK and Latin",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold after horizontal rule",
+          "fullName": "formatting after structural elements should close bold after horizontal rule",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold after heading",
+          "fullName": "formatting after structural elements should close bold after heading",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold after blockquote",
+          "fullName": "formatting after structural elements should close bold after blockquote",
+          "status": "passed"
+        },
+        {
+          "title": "should close italic after code block",
+          "fullName": "formatting after structural elements should close italic after code block",
+          "status": "passed"
+        },
+        {
+          "title": "should handle reference-style link with complete brackets",
+          "fullName": "reference-style links and footnotes should handle reference-style link with complete brackets",
+          "status": "passed"
+        },
+        {
+          "title": "should handle footnote reference",
+          "fullName": "reference-style links and footnotes should handle footnote reference",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete reference link",
+          "fullName": "reference-style links and footnotes should handle incomplete reference link",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete footnote definition",
+          "fullName": "reference-style links and footnotes should keep complete footnote definition",
+          "status": "passed"
+        },
+        {
+          "title": "should still close asterisks in indented text (not fenced)",
+          "fullName": "indented code blocks should still close asterisks in indented text (not fenced)",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold in indented text",
+          "fullName": "indented code blocks should close bold in indented text",
+          "status": "passed"
+        },
+        {
+          "title": "should handle formatting after closed code block",
+          "fullName": "back-to-back code blocks should handle formatting after closed code block",
+          "status": "passed"
+        },
+        {
+          "title": "should not close formatting inside open code block",
+          "fullName": "back-to-back code blocks should not close formatting inside open code block",
+          "status": "passed"
+        },
+        {
+          "title": "should handle inline code after code block",
+          "fullName": "back-to-back code blocks should handle inline code after code block",
+          "status": "passed"
+        },
+        {
+          "title": "should handle four asterisks (bold-italic handler appends ***)",
+          "fullName": "confusing asterisk sequences should handle four asterisks (bold-italic handler appends ***)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle five asterisks (bold-italic handler appends ***)",
+          "fullName": "confusing asterisk sequences should handle five asterisks (bold-italic handler appends ***)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed asterisk counts",
+          "fullName": "confusing asterisk sequences should handle mixed asterisk counts",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold with tabs in content",
+          "fullName": "whitespace edge cases should close bold with tabs in content",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold with CRLF",
+          "fullName": "whitespace edge cases should close bold with CRLF",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold after many leading newlines",
+          "fullName": "whitespace edge cases should close bold after many leading newlines",
+          "status": "passed"
+        },
+        {
+          "title": "should trim trailing single space",
+          "fullName": "whitespace edge cases should trim trailing single space",
+          "status": "passed"
+        },
+        {
+          "title": "should preserve trailing double space",
+          "fullName": "whitespace edge cases should preserve trailing double space",
+          "status": "passed"
+        },
+        {
+          "title": "should close bold and trim trailing space",
+          "fullName": "whitespace edge cases should close bold and trim trailing space",
+          "status": "passed"
+        },
+        {
+          "title": "should not close bold when bold is disabled",
+          "fullName": "disabled handlers via options should not close bold when bold is disabled",
+          "status": "passed"
+        },
+        {
+          "title": "should close italic even when bold is disabled",
+          "fullName": "disabled handlers via options should close italic even when bold is disabled",
+          "status": "passed"
+        },
+        {
+          "title": "should not close anything when all are disabled",
+          "fullName": "disabled handlers via options should not close anything when all are disabled",
+          "status": "passed"
+        },
+        {
+          "title": "should not close bold when asterisk in content blocks pattern (italic disabled)",
+          "fullName": "disabled handlers via options should not close bold when asterisk in content blocks pattern (italic disabled)",
+          "status": "passed"
+        },
+        {
+          "title": "should close strikethrough but not bold when bold is disabled",
+          "fullName": "disabled handlers via options should close strikethrough but not bold when bold is disabled",
+          "status": "passed"
+        },
+        {
+          "title": "should still close links when only links disabled (images defaults to true)",
+          "fullName": "disabled handlers via options should still close links when only links disabled (images defaults to true)",
+          "status": "passed"
+        },
+        {
+          "title": "should not close links when both links and images disabled",
+          "fullName": "disabled handlers via options should not close links when both links and images disabled",
+          "status": "passed"
+        },
+        {
+          "title": "should not close katex when katex disabled",
+          "fullName": "disabled handlers via options should not close katex when katex disabled",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code explanation with incomplete code block",
+          "fullName": "real-world AI streaming patterns should handle code explanation with incomplete code block",
+          "status": "passed"
+        },
+        {
+          "title": "should handle markdown list being built with bold",
+          "fullName": "real-world AI streaming patterns should handle markdown list being built with bold",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed inline code and bold",
+          "fullName": "real-world AI streaming patterns should handle mixed inline code and bold",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete link in explanation",
+          "fullName": "real-world AI streaming patterns should handle incomplete link in explanation",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code block followed by explanation",
+          "fullName": "real-world AI streaming patterns should handle code block followed by explanation",
+          "status": "passed"
+        },
+        {
+          "title": "should handle bullet list with inline code",
+          "fullName": "real-world AI streaming patterns should handle bullet list with inline code",
+          "status": "passed"
+        },
+        {
+          "title": "should handle heading with incomplete italic",
+          "fullName": "real-world AI streaming patterns should handle heading with incomplete italic",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete image (preserves newlines before removed image)",
+          "fullName": "real-world AI streaming patterns should handle incomplete image (preserves newlines before removed image)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete image with partial URL (preserves trailing space)",
+          "fullName": "real-world AI streaming patterns should handle incomplete image with partial URL (preserves trailing space)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle link with incomplete formatting after it",
+          "fullName": "real-world AI streaming patterns should handle link with incomplete formatting after it",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/code-block-utils.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "reports positions inside a fenced code block",
+          "fullName": "isInsideCodeBlock reports positions inside a fenced code block",
+          "status": "passed"
+        },
+        {
+          "title": "reports positions inside inline code",
+          "fullName": "isInsideCodeBlock reports positions inside inline code",
+          "status": "passed"
+        },
+        {
+          "title": "ignores escaped backticks",
+          "fullName": "isInsideCodeBlock ignores escaped backticks",
+          "status": "passed"
+        },
+        {
+          "title": "treats an unclosed fence as extending to the end",
+          "fullName": "isInsideCodeBlock treats an unclosed fence as extending to the end",
+          "status": "passed"
+        },
+        {
+          "title": "matches the per-call scan at every position on mixed input",
+          "fullName": "isInsideCodeBlock matches the per-call scan at every position on mixed input",
+          "status": "passed"
+        },
+        {
+          "title": "stays correct when queried texts alternate",
+          "fullName": "isInsideCodeBlock stays correct when queried texts alternate",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/code-blocks.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should handle incomplete multiline code blocks",
+          "fullName": "code block handling should handle incomplete multiline code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complete multiline code blocks",
+          "fullName": "code block handling should handle complete multiline code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code blocks with language and incomplete content",
+          "fullName": "code block handling should handle code blocks with language and incomplete content",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested backticks inside code blocks",
+          "fullName": "code block handling should handle nested backticks inside code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete code blocks at end of chunked response",
+          "fullName": "code block handling should handle incomplete code blocks at end of chunked response",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code blocks with trailing content",
+          "fullName": "code block handling should handle code blocks with trailing content",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complete code blocks ending with triple backticks on newline",
+          "fullName": "code block handling should handle complete code blocks ending with triple backticks on newline",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complete code blocks with trailing newline after closing backticks",
+          "fullName": "code block handling should handle complete code blocks with trailing newline after closing backticks",
+          "status": "passed"
+        },
+        {
+          "title": "should not add extra characters to complete simple code block",
+          "fullName": "code block handling should not add extra characters to complete simple code block",
+          "status": "passed"
+        },
+        {
+          "title": "should not add extra characters to complete Python code block with underscores and asterisks",
+          "fullName": "code block handling should not add extra characters to complete Python code block with underscores and asterisks",
+          "status": "passed"
+        },
+        {
+          "title": "should not add backticks when code block ends properly",
+          "fullName": "code block handling should not add backticks when code block ends properly",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple complete code blocks with newlines",
+          "fullName": "code block handling should handle multiple complete code blocks with newlines",
+          "status": "passed"
+        },
+        {
+          "title": "should correctly handle code on same line as opening backticks with closing on newline",
+          "fullName": "code block handling should correctly handle code on same line as opening backticks with closing on newline",
+          "status": "passed"
+        },
+        {
+          "title": "should only treat truly inline triple backticks as inline",
+          "fullName": "code block handling should only treat truly inline triple backticks as inline",
+          "status": "passed"
+        },
+        {
+          "title": "should not treat brackets inside complete code blocks as incomplete links",
+          "fullName": "code block handling should not treat brackets inside complete code blocks as incomplete links",
+          "status": "passed"
+        },
+        {
+          "title": "should still detect actual incomplete links outside of code blocks",
+          "fullName": "code block handling should still detect actual incomplete links outside of code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should not add incomplete-link marker after complete code blocks - #227",
+          "fullName": "code block handling should not add incomplete-link marker after complete code blocks - #227",
+          "status": "passed"
+        },
+        {
+          "title": "should not add extra __ after code block with underscores followed by bullet list (#300)",
+          "fullName": "code block handling should not add extra __ after code block with underscores followed by bullet list (#300)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complete code blocks with underscores followed by asterisk list (#300)",
+          "fullName": "code block handling should handle complete code blocks with underscores followed by asterisk list (#300)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code blocks with underscores and following text with asterisks (#300)",
+          "fullName": "code block handling should handle code blocks with underscores and following text with asterisks (#300)",
+          "status": "passed"
+        },
+        {
+          "title": "should not add stray * from [*] in mermaid code blocks",
+          "fullName": "code block handling should not add stray * from [*] in mermaid code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should not add stray * from [*] in incomplete mermaid code blocks (streaming)",
+          "fullName": "code block handling should not add stray * from [*] in incomplete mermaid code blocks (streaming)",
+          "status": "passed"
+        },
+        {
+          "title": "should not add stray * when emphasis exists outside code block with [*] inside",
+          "fullName": "code block handling should not add stray * when emphasis exists outside code block with [*] inside",
+          "status": "passed"
+        },
+        {
+          "title": "should still complete emphasis when * is only outside code blocks",
+          "fullName": "code block handling should still complete emphasis when * is only outside code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete markdown after code block (#302)",
+          "fullName": "code block handling should handle incomplete markdown after code block (#302)",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/comparison-operators.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should escape > followed by a digit in dash list items",
+          "fullName": "comparison operators in list items (#376) should escape > followed by a digit in dash list items",
+          "status": "passed"
+        },
+        {
+          "title": "should escape > followed by a digit in asterisk list items",
+          "fullName": "comparison operators in list items (#376) should escape > followed by a digit in asterisk list items",
+          "status": "passed"
+        },
+        {
+          "title": "should escape > followed by a digit in plus list items",
+          "fullName": "comparison operators in list items (#376) should escape > followed by a digit in plus list items",
+          "status": "passed"
+        },
+        {
+          "title": "should escape > in ordered list items",
+          "fullName": "comparison operators in list items (#376) should escape > in ordered list items",
+          "status": "passed"
+        },
+        {
+          "title": "should escape > in indented (nested) list items",
+          "fullName": "comparison operators in list items (#376) should escape > in indented (nested) list items",
+          "status": "passed"
+        },
+        {
+          "title": "should escape >= comparison operators",
+          "fullName": "comparison operators in list items (#376) should escape >= comparison operators",
+          "status": "passed"
+        },
+        {
+          "title": "should escape > before dollar amounts",
+          "fullName": "comparison operators in list items (#376) should escape > before dollar amounts",
+          "status": "passed"
+        },
+        {
+          "title": "should handle the issue example correctly",
+          "fullName": "comparison operators in list items (#376) should handle the issue example correctly",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple comparison operators in a list",
+          "fullName": "comparison operators in list items (#376) should handle multiple comparison operators in a list",
+          "status": "passed"
+        },
+        {
+          "title": "should not escape > in actual blockquotes (no list marker)",
+          "fullName": "comparison operators in list items (#376) should not escape > in actual blockquotes (no list marker)",
+          "status": "passed"
+        },
+        {
+          "title": "should not escape > when followed by non-digit text",
+          "fullName": "comparison operators in list items (#376) should not escape > when followed by non-digit text",
+          "status": "passed"
+        },
+        {
+          "title": "should not escape > without a space before digit (no list marker)",
+          "fullName": "comparison operators in list items (#376) should not escape > without a space before digit (no list marker)",
+          "status": "passed"
+        },
+        {
+          "title": "should not escape > inside code blocks",
+          "fullName": "comparison operators in list items (#376) should not escape > inside code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle > with no space before digit in list items",
+          "fullName": "comparison operators in list items (#376) should handle > with no space before digit in list items",
+          "status": "passed"
+        },
+        {
+          "title": "should be disabled when comparisonOperators option is false",
+          "fullName": "comparison operators in list items (#376) should be disabled when comparisonOperators option is false",
+          "status": "passed"
+        },
+        {
+          "title": "should work alongside other remend handlers",
+          "fullName": "comparison operators in list items (#376) should work alongside other remend handlers",
+          "status": "passed"
+        },
+        {
+          "title": "should handle the full issue example with nested lists",
+          "fullName": "comparison operators in list items (#376) should handle the full issue example with nested lists",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/coverage-gaps.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should handle single space input",
+          "fullName": "empty string through handler pipeline should handle single space input",
+          "status": "passed"
+        },
+        {
+          "title": "should complete __content_ to __content__",
+          "fullName": "half-complete double underscore closing should complete __content_ to __content__",
+          "status": "passed"
+        },
+        {
+          "title": "should close underscore when trailing ** is unrelated",
+          "fullName": "underscore with trailing double asterisks should close underscore when trailing ** is unrelated",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete *** markers inside code blocks",
+          "fullName": "bold-italic inside code block should not complete *** markers inside code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should complete *** outside code block with *** inside",
+          "fullName": "bold-italic inside code block should complete *** outside code block with *** inside",
+          "status": "passed"
+        },
+        {
+          "title": "should count trailing *** at end of text",
+          "fullName": "countTripleAsterisks should count trailing *** at end of text",
+          "status": "passed"
+        },
+        {
+          "title": "should skip *** inside code blocks",
+          "fullName": "countTripleAsterisks should skip *** inside code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should count *** outside but not inside code blocks",
+          "fullName": "countTripleAsterisks should count *** outside but not inside code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should flush pending asterisks before code block toggle",
+          "fullName": "countTripleAsterisks should flush pending asterisks before code block toggle",
+          "status": "passed"
+        },
+        {
+          "title": "should skip _ inside fenced code blocks",
+          "fullName": "single underscore counting with code blocks should skip _ inside fenced code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should not modify equals when previous line is empty",
+          "fullName": "setext heading with equals sign edge cases should not modify equals when previous line is empty",
+          "status": "passed"
+        },
+        {
+          "title": "should not modify double equals when previous line is empty",
+          "fullName": "setext heading with equals sign edge cases should not modify double equals when previous line is empty",
+          "status": "passed"
+        },
+        {
+          "title": "should not close when tilde pairs are balanced",
+          "fullName": "strikethrough even tilde pairs should not close when tilde pairs are balanced",
+          "status": "passed"
+        },
+        {
+          "title": "should not close half-complete tilde when pairs are balanced",
+          "fullName": "strikethrough even tilde pairs should not close half-complete tilde when pairs are balanced",
+          "status": "passed"
+        },
+        {
+          "title": "should skip __ inside fenced code blocks",
+          "fullName": "double underscore counting with code blocks should skip __ inside fenced code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle ]( without matching opening bracket",
+          "fullName": "link handler edge cases should handle ]( without matching opening bracket",
+          "status": "passed"
+        },
+        {
+          "title": "should skip image brackets in text-only mode",
+          "fullName": "link handler edge cases should skip image brackets in text-only mode",
+          "status": "passed"
+        },
+        {
+          "title": "should skip complete links in text-only mode",
+          "fullName": "link handler edge cases should skip complete links in text-only mode",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complete bracket pair without link in text-only mode",
+          "fullName": "link handler edge cases should handle complete bracket pair without link in text-only mode",
+          "status": "passed"
+        },
+        {
+          "title": "should return false when newline found before )",
+          "fullName": "isBeforeClosingParen edge cases should return false when newline found before )",
+          "status": "passed"
+        },
+        {
+          "title": "should return false when text ends without ) or newline",
+          "fullName": "isBeforeClosingParen edge cases should return false when text ends without ) or newline",
+          "status": "passed"
+        },
+        {
+          "title": "should return false when ) precedes the position",
+          "fullName": "isWithinLinkOrImageUrl — ) found before ( should return false when ) precedes the position",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscore after complete link",
+          "fullName": "isWithinLinkOrImageUrl — ) found before ( should handle underscore after complete link",
+          "status": "passed"
+        },
+        {
+          "title": "should return false for bare ( not preceded by ]",
+          "fullName": "isWithinLinkOrImageUrl edge cases should return false for bare ( not preceded by ]",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscore after bare parenthesis",
+          "fullName": "isWithinLinkOrImageUrl edge cases should handle underscore after bare parenthesis",
+          "status": "passed"
+        },
+        {
+          "title": "should return false when > is found first",
+          "fullName": "isWithinHtmlTag edge cases should return false when > is found first",
+          "status": "passed"
+        },
+        {
+          "title": "should return false for invalid tag start after <",
+          "fullName": "isWithinHtmlTag edge cases should return false for invalid tag start after <",
+          "status": "passed"
+        },
+        {
+          "title": "should return false when newline found before < or >",
+          "fullName": "isWithinHtmlTag edge cases should return false when newline found before < or >",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscore after > character",
+          "fullName": "isWithinHtmlTag edge cases should handle underscore after > character",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscore near < with invalid tag start",
+          "fullName": "isWithinHtmlTag edge cases should handle underscore near < with invalid tag start",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscore on new line after HTML element",
+          "fullName": "isWithinHtmlTag edge cases should handle underscore on new line after HTML element",
+          "status": "passed"
+        },
+        {
+          "title": "should return true for uppercase tag",
+          "fullName": "isWithinHtmlTag edge cases should return true for uppercase tag",
+          "status": "passed"
+        },
+        {
+          "title": "should return true for closing tag with /",
+          "fullName": "isWithinHtmlTag edge cases should return true for closing tag with /",
+          "status": "passed"
+        },
+        {
+          "title": "should return false when < is at end of text",
+          "fullName": "isWithinHtmlTag edge cases should return false when < is at end of text",
+          "status": "passed"
+        },
+        {
+          "title": "should not close underscore that is part of a link URL",
+          "fullName": "underscore inside link URL should not close underscore that is part of a link URL",
+          "status": "passed"
+        },
+        {
+          "title": "should ignore single $ inside block math",
+          "fullName": "isWithinMathBlock branch coverage should ignore single $ inside block math",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete __content_ inside code block",
+          "fullName": "double underscore half-complete in code block should not complete __content_ inside code block",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete when __ pairs are balanced",
+          "fullName": "double underscore half-complete with even pairs should not complete when __ pairs are balanced",
+          "status": "passed"
+        },
+        {
+          "title": "should handle [text]( without ) before incomplete bracket",
+          "fullName": "findFirstIncompleteBracket with incomplete URL should handle [text]( without ) before incomplete bracket",
+          "status": "passed"
+        },
+        {
+          "title": "should detect horizontal rule with spaces between markers",
+          "fullName": "isHorizontalRule branch coverage should detect horizontal rule with spaces between markers",
+          "status": "passed"
+        },
+        {
+          "title": "should detect horizontal rule with tabs between markers",
+          "fullName": "isHorizontalRule branch coverage should detect horizontal rule with tabs between markers",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/custom-handlers.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should execute custom handlers",
+          "fullName": "custom handlers should execute custom handlers",
+          "status": "passed"
+        },
+        {
+          "title": "should execute custom handlers after built-in handlers by default",
+          "fullName": "custom handlers should execute custom handlers after built-in handlers by default",
+          "status": "passed"
+        },
+        {
+          "title": "should respect custom handler priority",
+          "fullName": "custom handlers should respect custom handler priority",
+          "status": "passed"
+        },
+        {
+          "title": "should allow custom handlers to run before built-ins",
+          "fullName": "custom handlers should allow custom handlers to run before built-ins",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple custom handlers",
+          "fullName": "custom handlers should handle multiple custom handlers",
+          "status": "passed"
+        },
+        {
+          "title": "should handle custom handlers with same priority in order",
+          "fullName": "custom handlers should handle custom handlers with same priority in order",
+          "status": "passed"
+        },
+        {
+          "title": "should work with disabled built-in handlers",
+          "fullName": "custom handlers should work with disabled built-in handlers",
+          "status": "passed"
+        },
+        {
+          "title": "should work with no built-in handlers enabled",
+          "fullName": "custom handlers should work with no built-in handlers enabled",
+          "status": "passed"
+        },
+        {
+          "title": "should handle empty handlers array",
+          "fullName": "custom handlers should handle empty handlers array",
+          "status": "passed"
+        },
+        {
+          "title": "should detect position inside code block",
+          "fullName": "exported utilities isWithinCodeBlock should detect position inside code block",
+          "status": "passed"
+        },
+        {
+          "title": "should detect position outside code block",
+          "fullName": "exported utilities isWithinCodeBlock should detect position outside code block",
+          "status": "passed"
+        },
+        {
+          "title": "should detect position inside block math",
+          "fullName": "exported utilities isWithinMathBlock should detect position inside block math",
+          "status": "passed"
+        },
+        {
+          "title": "should detect position outside math",
+          "fullName": "exported utilities isWithinMathBlock should detect position outside math",
+          "status": "passed"
+        },
+        {
+          "title": "should detect position inside link URL",
+          "fullName": "exported utilities isWithinLinkOrImageUrl should detect position inside link URL",
+          "status": "passed"
+        },
+        {
+          "title": "should detect position outside link",
+          "fullName": "exported utilities isWithinLinkOrImageUrl should detect position outside link",
+          "status": "passed"
+        },
+        {
+          "title": "should identify word characters",
+          "fullName": "exported utilities isWordChar should identify word characters",
+          "status": "passed"
+        },
+        {
+          "title": "should identify non-word characters",
+          "fullName": "exported utilities isWordChar should identify non-word characters",
+          "status": "passed"
+        },
+        {
+          "title": "should complete joke markers",
+          "fullName": "custom handler example: joke marker should complete joke markers",
+          "status": "passed"
+        },
+        {
+          "title": "should not double-complete joke markers",
+          "fullName": "custom handler example: joke marker should not double-complete joke markers",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/edge-cases.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should handle text ending with formatting characters",
+          "fullName": "edge cases should handle text ending with formatting characters",
+          "status": "passed"
+        },
+        {
+          "title": "should handle empty formatting markers",
+          "fullName": "edge cases should handle empty formatting markers",
+          "status": "passed"
+        },
+        {
+          "title": "should handle standalone emphasis characters (#90)",
+          "fullName": "edge cases should handle standalone emphasis characters (#90)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle very long text",
+          "fullName": "edge cases should handle very long text",
+          "status": "passed"
+        },
+        {
+          "title": "should handle text with only formatting characters",
+          "fullName": "edge cases should handle text with only formatting characters",
+          "status": "passed"
+        },
+        {
+          "title": "should handle escaped characters",
+          "fullName": "edge cases should handle escaped characters",
+          "status": "passed"
+        },
+        {
+          "title": "should handle markdown at very end of string",
+          "fullName": "edge cases should handle markdown at very end of string",
+          "status": "passed"
+        },
+        {
+          "title": "should handle whitespace before incomplete markdown",
+          "fullName": "edge cases should handle whitespace before incomplete markdown",
+          "status": "passed"
+        },
+        {
+          "title": "should handle unicode characters in incomplete markdown",
+          "fullName": "edge cases should handle unicode characters in incomplete markdown",
+          "status": "passed"
+        },
+        {
+          "title": "should handle HTML entities in incomplete markdown",
+          "fullName": "edge cases should handle HTML entities in incomplete markdown",
+          "status": "passed"
+        },
+        {
+          "title": "should not treat asterisks flanked by whitespace as emphasis markers (#370)",
+          "fullName": "edge cases should not treat asterisks flanked by whitespace as emphasis markers (#370)",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/horizontal-rules.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should preserve complete horizontal rules with hyphens",
+          "fullName": "horizontal rule handling should preserve complete horizontal rules with hyphens",
+          "status": "passed"
+        },
+        {
+          "title": "should preserve complete horizontal rules with asterisks",
+          "fullName": "horizontal rule handling should preserve complete horizontal rules with asterisks",
+          "status": "passed"
+        },
+        {
+          "title": "should preserve complete horizontal rules with underscores",
+          "fullName": "horizontal rule handling should preserve complete horizontal rules with underscores",
+          "status": "passed"
+        },
+        {
+          "title": "should preserve horizontal rules with spaces",
+          "fullName": "horizontal rule handling should preserve horizontal rules with spaces",
+          "status": "passed"
+        },
+        {
+          "title": "should preserve horizontal rules with mixed spacing",
+          "fullName": "horizontal rule handling should preserve horizontal rules with mixed spacing",
+          "status": "passed"
+        },
+        {
+          "title": "should not confuse horizontal rules with emphasis",
+          "fullName": "horizontal rule handling should not confuse horizontal rules with emphasis",
+          "status": "passed"
+        },
+        {
+          "title": "should handle horizontal rules at the end of text",
+          "fullName": "horizontal rule handling should handle horizontal rules at the end of text",
+          "status": "passed"
+        },
+        {
+          "title": "should handle horizontal rules at the start of text",
+          "fullName": "horizontal rule handling should handle horizontal rules at the start of text",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple horizontal rules",
+          "fullName": "horizontal rule handling should handle multiple horizontal rules",
+          "status": "passed"
+        },
+        {
+          "title": "should not confuse two asterisks with horizontal rule start",
+          "fullName": "horizontal rule handling should not confuse two asterisks with horizontal rule start",
+          "status": "passed"
+        },
+        {
+          "title": "should not confuse two hyphens with horizontal rule",
+          "fullName": "horizontal rule handling should not confuse two hyphens with horizontal rule",
+          "status": "passed"
+        },
+        {
+          "title": "should handle horizontal rules after lists",
+          "fullName": "horizontal rule handling should handle horizontal rules after lists",
+          "status": "passed"
+        },
+        {
+          "title": "should handle horizontal rules before headings",
+          "fullName": "horizontal rule handling should handle horizontal rules before headings",
+          "status": "passed"
+        },
+        {
+          "title": "should handle partial horizontal rules during streaming",
+          "fullName": "horizontal rule handling should handle partial horizontal rules during streaming",
+          "status": "passed"
+        },
+        {
+          "title": "should not add closing markers to standalone asterisk sequences that could be rules",
+          "fullName": "horizontal rule handling should not add closing markers to standalone asterisk sequences that could be rules",
+          "status": "passed"
+        },
+        {
+          "title": "should handle horizontal rules with leading whitespace",
+          "fullName": "horizontal rule handling should handle horizontal rules with leading whitespace",
+          "status": "passed"
+        },
+        {
+          "title": "should handle horizontal rule-like patterns in text",
+          "fullName": "horizontal rule handling should handle horizontal rule-like patterns in text",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete emphasis when asterisks form potential horizontal rule",
+          "fullName": "horizontal rule handling should not complete emphasis when asterisks form potential horizontal rule",
+          "status": "passed"
+        },
+        {
+          "title": "should handle horizontal rules in complex markdown",
+          "fullName": "horizontal rule handling should handle horizontal rules in complex markdown",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/html-tags.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should strip incomplete opening tags at end",
+          "fullName": "incomplete HTML tag stripping should strip incomplete opening tags at end",
+          "status": "passed"
+        },
+        {
+          "title": "should strip incomplete closing tags at end",
+          "fullName": "incomplete HTML tag stripping should strip incomplete closing tags at end",
+          "status": "passed"
+        },
+        {
+          "title": "should strip incomplete tags with partial attributes",
+          "fullName": "incomplete HTML tag stripping should strip incomplete tags with partial attributes",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete tags unchanged",
+          "fullName": "incomplete HTML tag stripping should keep complete tags unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should not strip < followed by space or number",
+          "fullName": "incomplete HTML tag stripping should not strip < followed by space or number",
+          "status": "passed"
+        },
+        {
+          "title": "should not strip inside code blocks",
+          "fullName": "incomplete HTML tag stripping should not strip inside code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should not strip inside inline code",
+          "fullName": "incomplete HTML tag stripping should not strip inside inline code",
+          "status": "passed"
+        },
+        {
+          "title": "should handle tag at start of text",
+          "fullName": "incomplete HTML tag stripping should handle tag at start of text",
+          "status": "passed"
+        },
+        {
+          "title": "should strip only the incomplete tag, preserving prior content",
+          "fullName": "incomplete HTML tag stripping should strip only the incomplete tag, preserving prior content",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complete tag followed by incomplete tag",
+          "fullName": "incomplete HTML tag stripping should handle complete tag followed by incomplete tag",
+          "status": "passed"
+        },
+        {
+          "title": "should not add trailing underscore for HTML attributes with underscores",
+          "fullName": "incomplete HTML tag stripping should not add trailing underscore for HTML attributes with underscores",
+          "status": "passed"
+        },
+        {
+          "title": "should be disabled when htmlTags option is false",
+          "fullName": "incomplete HTML tag stripping should be disabled when htmlTags option is false",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/images.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should remove incomplete images",
+          "fullName": "image handling should remove incomplete images",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete images unchanged",
+          "fullName": "image handling should keep complete images unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle partial image at chunk boundary",
+          "fullName": "image handling should handle partial image at chunk boundary",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested brackets in incomplete images",
+          "fullName": "image handling should handle nested brackets in incomplete images",
+          "status": "passed"
+        },
+        {
+          "title": "should not add trailing underscore for images with underscores in URL (#284)",
+          "fullName": "image handling should not add trailing underscore for images with underscores in URL (#284)",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/inline-code.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should complete incomplete inline code",
+          "fullName": "inline code formatting (`) should complete incomplete inline code",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete inline code unchanged",
+          "fullName": "inline code formatting (`) should keep complete inline code unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple inline code sections",
+          "fullName": "inline code formatting (`) should handle multiple inline code sections",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete backticks inside code blocks",
+          "fullName": "inline code formatting (`) should not complete backticks inside code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete code blocks correctly",
+          "fullName": "inline code formatting (`) should handle incomplete code blocks correctly",
+          "status": "passed"
+        },
+        {
+          "title": "should handle inline triple backticks correctly",
+          "fullName": "inline code formatting (`) should handle inline triple backticks correctly",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete inline triple backticks",
+          "fullName": "inline code formatting (`) should handle incomplete inline triple backticks",
+          "status": "passed"
+        },
+        {
+          "title": "should not modify text with complete triple backticks at the end",
+          "fullName": "inline code formatting (`) should not modify text with complete triple backticks at the end",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code block with incomplete inline code after (#302)",
+          "fullName": "inline code formatting (`) should handle code block with incomplete inline code after (#302)",
+          "status": "passed"
+        },
+        {
+          "title": "should not treat escaped backticks as code delimiters",
+          "fullName": "escaped backticks in inline code should not treat escaped backticks as code delimiters",
+          "status": "passed"
+        },
+        {
+          "title": "should complete emphasis when only escaped backticks are present",
+          "fullName": "escaped backticks in inline code should complete emphasis when only escaped backticks are present",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete bold/italic/strikethrough if they are inside inline code",
+          "fullName": "emphasis markers inside inline code spans should not leak should not complete bold/italic/strikethrough if they are inside inline code",
+          "status": "passed"
+        },
+        {
+          "title": "should still complete emphasis markers outside inline code",
+          "fullName": "emphasis markers inside inline code spans should not leak should still complete emphasis markers outside inline code",
+          "status": "passed"
+        },
+        {
+          "title": "should complete emphasis after a closed inline code span",
+          "fullName": "emphasis markers inside inline code spans should not leak should complete emphasis after a closed inline code span",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/intraword-asterisk.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "keeps complete emphasis unchanged: *foo*bar",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: *foo*bar",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: this is *real*ly good",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: this is *real*ly good",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: 이것은 *기울임*으로 표시",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: 이것은 *기울임*으로 표시",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: 5*6*78",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: 5*6*78",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: *foo*bar*",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: *foo*bar*",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: a *b*c*",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: a *b*c*",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: a *b*c* d",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: a *b*c* d",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: *b*c*",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: *b*c*",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: *a* b*",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: *a* b*",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: a *b* c*",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: a *b* c*",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: *a*b*c*d",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: *a*b*c*d",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: x *y*z w",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: x *y*z w",
+          "status": "passed"
+        },
+        {
+          "title": "keeps complete emphasis unchanged: before *a*b after *c*",
+          "fullName": "intraword asterisk emphasis keeps complete emphasis unchanged: before *a*b after *c*",
+          "status": "passed"
+        },
+        {
+          "title": "leaves a lone intraword asterisk literal",
+          "fullName": "intraword asterisk emphasis leaves a lone intraword asterisk literal",
+          "status": "passed"
+        },
+        {
+          "title": "continues an active intraword emphasis chain",
+          "fullName": "intraword asterisk emphasis continues an active intraword emphasis chain",
+          "status": "passed"
+        },
+        {
+          "title": "completes a later incomplete run after a closed intraword pair",
+          "fullName": "intraword asterisk emphasis completes a later incomplete run after a closed intraword pair",
+          "status": "passed"
+        },
+        {
+          "title": "does not reopen after whitespace following a closed intraword pair",
+          "fullName": "intraword asterisk emphasis does not reopen after whitespace following a closed intraword pair",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/italic.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should complete incomplete italic formatting with double underscores",
+          "fullName": "italic formatting with underscores (__) should complete incomplete italic formatting with double underscores",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete italic formatting unchanged",
+          "fullName": "italic formatting with underscores (__) should keep complete italic formatting unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle odd number of double underscore pairs",
+          "fullName": "italic formatting with underscores (__) should handle odd number of double underscore pairs",
+          "status": "passed"
+        },
+        {
+          "title": "should complete half-complete __ closing marker (#313)",
+          "fullName": "italic formatting with underscores (__) should complete half-complete __ closing marker (#313)",
+          "status": "passed"
+        },
+        {
+          "title": "should complete incomplete italic formatting with single asterisks",
+          "fullName": "italic formatting with asterisks (*) should complete incomplete italic formatting with single asterisks",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete italic formatting unchanged",
+          "fullName": "italic formatting with asterisks (*) should keep complete italic formatting unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should not confuse single asterisks with bold markers",
+          "fullName": "italic formatting with asterisks (*) should not confuse single asterisks with bold markers",
+          "status": "passed"
+        },
+        {
+          "title": "should not treat asterisks in the middle of words as italic markers - #189",
+          "fullName": "italic formatting with asterisks (*) should not treat asterisks in the middle of words as italic markers - #189",
+          "status": "passed"
+        },
+        {
+          "title": "should handle escaped asterisks correctly in countSingleAsterisks",
+          "fullName": "italic formatting with asterisks (*) should handle escaped asterisks correctly in countSingleAsterisks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle asterisks between letters and numbers",
+          "fullName": "italic formatting with asterisks (*) should handle asterisks between letters and numbers",
+          "status": "passed"
+        },
+        {
+          "title": "should still complete italic formatting with asterisks when not word-internal",
+          "fullName": "italic formatting with asterisks (*) should still complete italic formatting with asterisks when not word-internal",
+          "status": "passed"
+        },
+        {
+          "title": "should complete incomplete italic formatting with single underscores",
+          "fullName": "italic formatting with single underscores (_) should complete incomplete italic formatting with single underscores",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete italic formatting unchanged",
+          "fullName": "italic formatting with single underscores (_) should keep complete italic formatting unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should not confuse single underscores with double underscore markers",
+          "fullName": "italic formatting with single underscores (_) should not confuse single underscores with double underscore markers",
+          "status": "passed"
+        },
+        {
+          "title": "should handle escaped single underscores",
+          "fullName": "italic formatting with single underscores (_) should handle escaped single underscores",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed escaped and unescaped underscores correctly",
+          "fullName": "italic formatting with single underscores (_) should handle mixed escaped and unescaped underscores correctly",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscores with unicode word characters",
+          "fullName": "italic formatting with single underscores (_) should handle underscores with unicode word characters",
+          "status": "passed"
+        },
+        {
+          "title": "should not count word-internal single underscores in countSingleUnderscores",
+          "fullName": "italic formatting with single underscores (_) should not count word-internal single underscores in countSingleUnderscores",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete single underscore with trailing newlines",
+          "fullName": "italic formatting with single underscores (_) should handle incomplete single underscore with trailing newlines",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/katex.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should complete incomplete block KaTeX",
+          "fullName": "KaTeX block formatting ($$) should complete incomplete block KaTeX",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete block KaTeX unchanged",
+          "fullName": "KaTeX block formatting ($$) should keep complete block KaTeX unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple block KaTeX sections",
+          "fullName": "KaTeX block formatting ($$) should handle multiple block KaTeX sections",
+          "status": "passed"
+        },
+        {
+          "title": "should complete odd number of block KaTeX markers",
+          "fullName": "KaTeX block formatting ($$) should complete odd number of block KaTeX markers",
+          "status": "passed"
+        },
+        {
+          "title": "should handle block KaTeX at start of text",
+          "fullName": "KaTeX block formatting ($$) should handle block KaTeX at start of text",
+          "status": "passed"
+        },
+        {
+          "title": "should complete partial closing $ without duplicating it",
+          "fullName": "KaTeX block formatting ($$) should complete partial closing $ without duplicating it",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiline block KaTeX",
+          "fullName": "KaTeX block formatting ($$) should handle multiline block KaTeX",
+          "status": "passed"
+        },
+        {
+          "title": "should NOT complete single dollar signs (likely currency)",
+          "fullName": "KaTeX inline formatting ($) should NOT complete single dollar signs (likely currency)",
+          "status": "passed"
+        },
+        {
+          "title": "should keep text with paired dollar signs unchanged",
+          "fullName": "KaTeX inline formatting ($) should keep text with paired dollar signs unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple inline KaTeX sections",
+          "fullName": "KaTeX inline formatting ($) should handle multiple inline KaTeX sections",
+          "status": "passed"
+        },
+        {
+          "title": "should NOT complete odd number of dollar signs",
+          "fullName": "KaTeX inline formatting ($) should NOT complete odd number of dollar signs",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete single $ but should complete block $$",
+          "fullName": "KaTeX inline formatting ($) should not complete single $ but should complete block $$",
+          "status": "passed"
+        },
+        {
+          "title": "should NOT complete dollar sign at start of text",
+          "fullName": "KaTeX inline formatting ($) should NOT complete dollar sign at start of text",
+          "status": "passed"
+        },
+        {
+          "title": "should handle escaped dollar signs",
+          "fullName": "KaTeX inline formatting ($) should handle escaped dollar signs",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple consecutive dollar signs correctly",
+          "fullName": "KaTeX inline formatting ($) should handle multiple consecutive dollar signs correctly",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mathematical expression chunks",
+          "fullName": "KaTeX inline formatting ($) should handle mathematical expression chunks",
+          "status": "passed"
+        },
+        {
+          "title": "should complete incomplete inline math",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should complete incomplete inline math",
+          "status": "passed"
+        },
+        {
+          "title": "should keep already-complete inline math unchanged",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should keep already-complete inline math unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should complete the third unpaired dollar sign",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should complete the third unpaired dollar sign",
+          "status": "passed"
+        },
+        {
+          "title": "should complete inline $ but not affect complete block $$",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should complete inline $ but not affect complete block $$",
+          "status": "passed"
+        },
+        {
+          "title": "should handle streaming chunks of inline math",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should handle streaming chunks of inline math",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete escaped dollar signs",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should not complete escaped dollar signs",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete $ inside inline code",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should not complete $ inside inline code",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple complete inline math expressions",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should handle multiple complete inline math expressions",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed inline and block math",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should handle mixed inline and block math",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete $ inside a complete block math expression",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should not complete $ inside a complete block math expression",
+          "status": "passed"
+        },
+        {
+          "title": "should handle $$ followed by an unmatched $",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should handle $$ followed by an unmatched $",
+          "status": "passed"
+        },
+        {
+          "title": "should not produce extra $ when block katex and inline katex both run",
+          "fullName": "KaTeX inline formatting ($) — opt-in via inlineKatex: true should not produce extra $ when block katex and inline katex both run",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete underscores within inline math blocks",
+          "fullName": "math blocks with underscores should not complete underscores within inline math blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete underscores within block math",
+          "fullName": "math blocks with underscores should not complete underscores within block math",
+          "status": "passed"
+        },
+        {
+          "title": "should not add underscore when math block has incomplete underscore",
+          "fullName": "math blocks with underscores should not add underscore when math block has incomplete underscore",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscores outside math blocks normally",
+          "fullName": "math blocks with underscores should handle underscores outside math blocks normally",
+          "status": "passed"
+        },
+        {
+          "title": "should complete italic underscore outside math but not inside",
+          "fullName": "math blocks with underscores should complete italic underscore outside math but not inside",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complex math expressions with multiple underscores",
+          "fullName": "math blocks with underscores should handle complex math expressions with multiple underscores",
+          "status": "passed"
+        },
+        {
+          "title": "should handle escaped dollar signs correctly",
+          "fullName": "math blocks with underscores should handle escaped dollar signs correctly",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed inline and block math",
+          "fullName": "math blocks with underscores should handle mixed inline and block math",
+          "status": "passed"
+        },
+        {
+          "title": "should not interfere with complete math blocks when adding underscores outside",
+          "fullName": "math blocks with underscores should not interfere with complete math blocks when adding underscores outside",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete dollar signs in inline code blocks (#296)",
+          "fullName": "math blocks with underscores should not complete dollar signs in inline code blocks (#296)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple inline code blocks with $$ correctly (#296)",
+          "fullName": "math blocks with underscores should handle multiple inline code blocks with $$ correctly (#296)",
+          "status": "passed"
+        },
+        {
+          "title": "should complete $$ outside inline code but not inside (#296)",
+          "fullName": "math blocks with underscores should complete $$ outside inline code but not inside (#296)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed $$ inside and outside code blocks (#296)",
+          "fullName": "math blocks with underscores should handle mixed $$ inside and outside code blocks (#296)",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete asterisks within block math",
+          "fullName": "math blocks with asterisks should not complete asterisks within block math",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete asterisks in complex math expressions",
+          "fullName": "math blocks with asterisks should not complete asterisks in complex math expressions",
+          "status": "passed"
+        },
+        {
+          "title": "should handle asterisks outside math blocks normally",
+          "fullName": "math blocks with asterisks should handle asterisks outside math blocks normally",
+          "status": "passed"
+        },
+        {
+          "title": "should complete italic asterisk outside math but not inside",
+          "fullName": "math blocks with asterisks should complete italic asterisk outside math but not inside",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete underscores within paren-style inline math",
+          "fullName": "LaTeX delimited math with emphasis markers should not complete underscores within paren-style inline math",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete underscores within bracket-style display math",
+          "fullName": "LaTeX delimited math with emphasis markers should not complete underscores within bracket-style display math",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete asterisks within paren-style inline math",
+          "fullName": "LaTeX delimited math with emphasis markers should not complete asterisks within paren-style inline math",
+          "status": "passed"
+        },
+        {
+          "title": "should complete bold after LaTeX inline math without leaking subscripts",
+          "fullName": "LaTeX delimited math with emphasis markers should complete bold after LaTeX inline math without leaking subscripts",
+          "status": "passed"
+        },
+        {
+          "title": "should complete ordinary underscore emphasis outside LaTeX math",
+          "fullName": "LaTeX delimited math with emphasis markers should complete ordinary underscore emphasis outside LaTeX math",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/links.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should preserve incomplete links with special marker",
+          "fullName": "link handling should preserve incomplete links with special marker",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete links unchanged",
+          "fullName": "link handling should keep complete links unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple complete links",
+          "fullName": "link handling should handle multiple complete links",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested brackets in incomplete links",
+          "fullName": "link handling should handle nested brackets in incomplete links",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested brackets in complete links",
+          "fullName": "link handling should handle nested brackets in complete links",
+          "status": "passed"
+        },
+        {
+          "title": "should handle partial link at chunk boundary - #165",
+          "fullName": "link handling should handle partial link at chunk boundary - #165",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested brackets without matching closing bracket",
+          "fullName": "link handling should handle nested brackets without matching closing bracket",
+          "status": "passed"
+        },
+        {
+          "title": "should show plain text for incomplete links",
+          "fullName": "link handling with linkMode: text-only should show plain text for incomplete links",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete links unchanged",
+          "fullName": "link handling with linkMode: text-only should keep complete links unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple complete links",
+          "fullName": "link handling with linkMode: text-only should handle multiple complete links",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested brackets in incomplete links",
+          "fullName": "link handling with linkMode: text-only should handle nested brackets in incomplete links",
+          "status": "passed"
+        },
+        {
+          "title": "should handle partial link at chunk boundary",
+          "fullName": "link handling with linkMode: text-only should handle partial link at chunk boundary",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested brackets without matching closing bracket",
+          "fullName": "link handling with linkMode: text-only should handle nested brackets without matching closing bracket",
+          "status": "passed"
+        },
+        {
+          "title": "should still remove incomplete images",
+          "fullName": "link handling with linkMode: text-only should still remove incomplete images",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/lists.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should not add asterisk to lists using asterisk markers",
+          "fullName": "list handling should not add asterisk to lists using asterisk markers",
+          "status": "passed"
+        },
+        {
+          "title": "should not add asterisk to single list item",
+          "fullName": "list handling should not add asterisk to single list item",
+          "status": "passed"
+        },
+        {
+          "title": "should not add asterisk to nested lists",
+          "fullName": "list handling should not add asterisk to nested lists",
+          "status": "passed"
+        },
+        {
+          "title": "should handle lists with italic text correctly",
+          "fullName": "list handling should handle lists with italic text correctly",
+          "status": "passed"
+        },
+        {
+          "title": "should complete incomplete italic even in list items",
+          "fullName": "list handling should complete incomplete italic even in list items",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed list markers and italic formatting",
+          "fullName": "list handling should handle mixed list markers and italic formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should handle lists with tabs for indentation",
+          "fullName": "list handling should handle lists with tabs for indentation",
+          "status": "passed"
+        },
+        {
+          "title": "should not interfere with dash lists",
+          "fullName": "list handling should not interfere with dash lists",
+          "status": "passed"
+        },
+        {
+          "title": "should handle the Gemini response example from issue",
+          "fullName": "list handling should handle the Gemini response example from issue",
+          "status": "passed"
+        },
+        {
+          "title": "should handle lists with incomplete formatting",
+          "fullName": "list handling should handle lists with incomplete formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should handle lists with emphasis character blocks (#97)",
+          "fullName": "list handling should handle lists with emphasis character blocks (#97)",
+          "status": "passed"
+        },
+        {
+          "title": "should not complete list items with emphasis markers spanning multiple lines",
+          "fullName": "list handling should not complete list items with emphasis markers spanning multiple lines",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/mixed-formatting.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should handle multiple formatting types",
+          "fullName": "mixed formatting should handle multiple formatting types",
+          "status": "passed"
+        },
+        {
+          "title": "should complete multiple incomplete formats",
+          "fullName": "mixed formatting should complete multiple incomplete formats",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested formatting",
+          "fullName": "mixed formatting should handle nested formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should prioritize link/image preservation over formatting completion",
+          "fullName": "mixed formatting should prioritize link/image preservation over formatting completion",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complex real-world markdown",
+          "fullName": "mixed formatting should handle complex real-world markdown",
+          "status": "passed"
+        },
+        {
+          "title": "should handle bold inside italic",
+          "fullName": "mixed formatting should handle bold inside italic",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code inside bold",
+          "fullName": "mixed formatting should handle code inside bold",
+          "status": "passed"
+        },
+        {
+          "title": "should handle strikethrough with other formatting",
+          "fullName": "mixed formatting should handle strikethrough with other formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should handle dollar sign inside other formatting",
+          "fullName": "mixed formatting should handle dollar sign inside other formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should handle deeply nested incomplete formatting",
+          "fullName": "mixed formatting should handle deeply nested incomplete formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should preserve complete nested formatting",
+          "fullName": "mixed formatting should preserve complete nested formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed bold-italic formatting (#265)",
+          "fullName": "mixed formatting should handle mixed bold-italic formatting (#265)",
+          "status": "passed"
+        },
+        {
+          "title": "should close nested underscore italic before bold (#302)",
+          "fullName": "mixed formatting should close nested underscore italic before bold (#302)",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/setext-heading.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should prevent partial list items from being interpreted as setext headings",
+          "fullName": "setext heading handling should prevent partial list items from being interpreted as setext headings",
+          "status": "passed"
+        },
+        {
+          "title": "should handle double dash that could be setext heading",
+          "fullName": "setext heading handling should handle double dash that could be setext heading",
+          "status": "passed"
+        },
+        {
+          "title": "should handle single equals that could be setext heading",
+          "fullName": "setext heading handling should handle single equals that could be setext heading",
+          "status": "passed"
+        },
+        {
+          "title": "should handle double equals that could be setext heading",
+          "fullName": "setext heading handling should handle double equals that could be setext heading",
+          "status": "passed"
+        },
+        {
+          "title": "should NOT modify valid horizontal rules with three dashes",
+          "fullName": "setext heading handling should NOT modify valid horizontal rules with three dashes",
+          "status": "passed"
+        },
+        {
+          "title": "should NOT modify valid setext headings with three equals",
+          "fullName": "setext heading handling should NOT modify valid setext headings with three equals",
+          "status": "passed"
+        },
+        {
+          "title": "should NOT modify when there's no previous content",
+          "fullName": "setext heading handling should NOT modify when there's no previous content",
+          "status": "passed"
+        },
+        {
+          "title": "should NOT modify when previous line is empty",
+          "fullName": "setext heading handling should NOT modify when previous line is empty",
+          "status": "passed"
+        },
+        {
+          "title": "should handle the streaming list scenario",
+          "fullName": "setext heading handling should handle the streaming list scenario",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple lines with potential setext heading at end",
+          "fullName": "setext heading handling should handle multiple lines with potential setext heading at end",
+          "status": "passed"
+        },
+        {
+          "title": "should handle text with whitespace before dash",
+          "fullName": "setext heading handling should handle text with whitespace before dash",
+          "status": "passed"
+        },
+        {
+          "title": "should NOT modify complete list items",
+          "fullName": "setext heading handling should NOT modify complete list items",
+          "status": "passed"
+        },
+        {
+          "title": "should NOT modify when last line has other characters",
+          "fullName": "setext heading handling should NOT modify when last line has other characters",
+          "status": "passed"
+        },
+        {
+          "title": "should handle four or more dashes (horizontal rule)",
+          "fullName": "setext heading handling should handle four or more dashes (horizontal rule)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed whitespace and dashes",
+          "fullName": "setext heading handling should handle mixed whitespace and dashes",
+          "status": "passed"
+        },
+        {
+          "title": "should handle the original issue example precisely",
+          "fullName": "setext heading handling should handle the original issue example precisely",
+          "status": "passed"
+        },
+        {
+          "title": "should handle setext heading with equals signs during streaming",
+          "fullName": "setext heading handling should handle setext heading with equals signs during streaming",
+          "status": "passed"
+        },
+        {
+          "title": "should not interfere with other markdown syntax",
+          "fullName": "setext heading handling should not interfere with other markdown syntax",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple potential setext headings in sequence",
+          "fullName": "setext heading handling should handle multiple potential setext headings in sequence",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/single-tilde.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should escape single ~ between numbers",
+          "fullName": "single tilde escape (#445) should escape single ~ between numbers",
+          "status": "passed"
+        },
+        {
+          "title": "should escape multiple single tildes between numbers",
+          "fullName": "single tilde escape (#445) should escape multiple single tildes between numbers",
+          "status": "passed"
+        },
+        {
+          "title": "should escape single ~ between letters",
+          "fullName": "single tilde escape (#445) should escape single ~ between letters",
+          "status": "passed"
+        },
+        {
+          "title": "should not escape ~~ (double tilde strikethrough)",
+          "fullName": "single tilde escape (#445) should not escape ~~ (double tilde strikethrough)",
+          "status": "passed"
+        },
+        {
+          "title": "should not escape ~ at start or end of text",
+          "fullName": "single tilde escape (#445) should not escape ~ at start or end of text",
+          "status": "passed"
+        },
+        {
+          "title": "should not escape ~ surrounded by spaces",
+          "fullName": "single tilde escape (#445) should not escape ~ surrounded by spaces",
+          "status": "passed"
+        },
+        {
+          "title": "should not escape ~ inside code blocks",
+          "fullName": "single tilde escape (#445) should not escape ~ inside code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should not escape ~ inside inline code",
+          "fullName": "single tilde escape (#445) should not escape ~ inside inline code",
+          "status": "passed"
+        },
+        {
+          "title": "should handle incomplete strikethrough separately from single tilde",
+          "fullName": "single tilde escape (#445) should handle incomplete strikethrough separately from single tilde",
+          "status": "passed"
+        },
+        {
+          "title": "can be disabled via options",
+          "fullName": "single tilde escape (#445) can be disabled via options",
+          "status": "passed"
+        },
+        {
+          "title": "should preserve Unicode letters around single ~",
+          "fullName": "single tilde escape (#445) should preserve Unicode letters around single ~",
+          "status": "passed"
+        },
+        {
+          "title": "should preserve supplementary-plane Unicode letters around single ~",
+          "fullName": "single tilde escape (#445) should preserve supplementary-plane Unicode letters around single ~",
+          "status": "passed"
+        },
+        {
+          "title": "should escape multiple single tildes between letters",
+          "fullName": "single tilde escape (#445) should escape multiple single tildes between letters",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/streaming.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should handle nested formatting cut mid-stream",
+          "fullName": "chunked streaming scenarios should handle nested formatting cut mid-stream",
+          "status": "passed"
+        },
+        {
+          "title": "should handle headings with incomplete formatting",
+          "fullName": "chunked streaming scenarios should handle headings with incomplete formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should handle blockquotes with incomplete formatting",
+          "fullName": "chunked streaming scenarios should handle blockquotes with incomplete formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should handle tables with incomplete formatting",
+          "fullName": "chunked streaming scenarios should handle tables with incomplete formatting",
+          "status": "passed"
+        },
+        {
+          "title": "should handle complex nested structures from chunks",
+          "fullName": "chunked streaming scenarios should handle complex nested structures from chunks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple incomplete formats in one chunk",
+          "fullName": "chunked streaming scenarios should handle multiple incomplete formats in one chunk",
+          "status": "passed"
+        },
+        {
+          "title": "should handle typical GPT response chunks",
+          "fullName": "real-world streaming chunks should handle typical GPT response chunks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code explanation chunks",
+          "fullName": "real-world streaming chunks should handle code explanation chunks",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/strikethrough.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should complete incomplete strikethrough",
+          "fullName": "strikethrough formatting (~~) should complete incomplete strikethrough",
+          "status": "passed"
+        },
+        {
+          "title": "should keep complete strikethrough unchanged",
+          "fullName": "strikethrough formatting (~~) should keep complete strikethrough unchanged",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple strikethrough sections",
+          "fullName": "strikethrough formatting (~~) should handle multiple strikethrough sections",
+          "status": "passed"
+        },
+        {
+          "title": "should complete odd number of strikethrough markers",
+          "fullName": "strikethrough formatting (~~) should complete odd number of strikethrough markers",
+          "status": "passed"
+        },
+        {
+          "title": "should complete half-complete ~~ closing marker (#313)",
+          "fullName": "strikethrough formatting (~~) should complete half-complete ~~ closing marker (#313)",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/underscore-bug.test.tsx",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should handle single underscore between words",
+          "fullName": "word-internal underscores underscores as word separators should handle single underscore between words",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple underscores between words",
+          "fullName": "word-internal underscores underscores as word separators should handle multiple underscores between words",
+          "status": "passed"
+        },
+        {
+          "title": "should handle CONSTANT_CASE",
+          "fullName": "word-internal underscores underscores as word separators should handle CONSTANT_CASE",
+          "status": "passed"
+        },
+        {
+          "title": "should handle multiple snake_case words in text",
+          "fullName": "word-internal underscores underscores as word separators should handle multiple snake_case words in text",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscore in URLs",
+          "fullName": "word-internal underscores underscores as word separators should handle underscore in URLs",
+          "status": "passed"
+        },
+        {
+          "title": "should handle numbers with underscores",
+          "fullName": "word-internal underscores underscores as word separators should handle numbers with underscores",
+          "status": "passed"
+        },
+        {
+          "title": "should complete italic at word boundary",
+          "fullName": "word-internal underscores incomplete italic formatting should complete italic at word boundary",
+          "status": "passed"
+        },
+        {
+          "title": "should complete italic with punctuation",
+          "fullName": "word-internal underscores incomplete italic formatting should complete italic with punctuation",
+          "status": "passed"
+        },
+        {
+          "title": "should complete italic before newline",
+          "fullName": "word-internal underscores incomplete italic formatting should complete italic before newline",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscore at end of word (ambiguous case)",
+          "fullName": "word-internal underscores edge cases should handle underscore at end of word (ambiguous case)",
+          "status": "passed"
+        },
+        {
+          "title": "should handle leading underscore in identifier",
+          "fullName": "word-internal underscores edge cases should handle leading underscore in identifier",
+          "status": "passed"
+        },
+        {
+          "title": "should handle code with underscores in markdown",
+          "fullName": "word-internal underscores edge cases should handle code with underscores in markdown",
+          "status": "passed"
+        },
+        {
+          "title": "should handle mixed snake_case and italic",
+          "fullName": "word-internal underscores edge cases should handle mixed snake_case and italic",
+          "status": "passed"
+        },
+        {
+          "title": "should not modify complete italic pairs",
+          "fullName": "word-internal underscores edge cases should not modify complete italic pairs",
+          "status": "passed"
+        },
+        {
+          "title": "should handle underscore in code blocks",
+          "fullName": "word-internal underscores edge cases should handle underscore in code blocks",
+          "status": "passed"
+        },
+        {
+          "title": "should handle HTML attributes with underscores",
+          "fullName": "word-internal underscores edge cases should handle HTML attributes with underscores",
+          "status": "passed"
+        },
+        {
+          "title": "should handle Python-style names",
+          "fullName": "word-internal underscores real-world scenarios should handle Python-style names",
+          "status": "passed"
+        },
+        {
+          "title": "should handle markdown in sentences with snake_case",
+          "fullName": "word-internal underscores real-world scenarios should handle markdown in sentences with snake_case",
+          "status": "passed"
+        },
+        {
+          "title": "should handle the original bug report case",
+          "fullName": "word-internal underscores real-world scenarios should handle the original bug report case",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "__tests__/utils.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "title": "should return false for empty string",
+          "fullName": "isWordChar should return false for empty string",
+          "status": "passed"
+        },
+        {
+          "title": "should return true for ASCII word characters",
+          "fullName": "isWordChar should return true for ASCII word characters",
+          "status": "passed"
+        },
+        {
+          "title": "should return false for non-word characters",
+          "fullName": "isWordChar should return false for non-word characters",
+          "status": "passed"
+        },
+        {
+          "title": "should handle unicode word characters",
+          "fullName": "isWordChar should handle unicode word characters",
+          "status": "passed"
+        },
+        {
+          "title": "should return -1 when no matching opening bracket exists",
+          "fullName": "findMatchingOpeningBracket should return -1 when no matching opening bracket exists",
+          "status": "passed"
+        },
+        {
+          "title": "should find matching opening bracket for simple case",
+          "fullName": "findMatchingOpeningBracket should find matching opening bracket for simple case",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested brackets",
+          "fullName": "findMatchingOpeningBracket should handle nested brackets",
+          "status": "passed"
+        },
+        {
+          "title": "should return -1 when no matching closing bracket exists",
+          "fullName": "findMatchingClosingBracket should return -1 when no matching closing bracket exists",
+          "status": "passed"
+        },
+        {
+          "title": "should find matching closing bracket for simple case",
+          "fullName": "findMatchingClosingBracket should find matching closing bracket for simple case",
+          "status": "passed"
+        },
+        {
+          "title": "should handle nested brackets",
+          "fullName": "findMatchingClosingBracket should handle nested brackets",
+          "status": "passed"
+        }
+      ]
+    }
+  ],
+  "testCount": 489,
+  "passed": 489,
+  "failed": 0,
+  "skipped": 0,
+  "todo": 0,
+  "artifacts": {
+    "index.js": {
+      "distributionSHA256": "3ab122d383b14e9b8974ea75ea392075ce412cd3f1868494c2dc8009e02d5b81",
+      "rebuiltSHA256": "3ab122d383b14e9b8974ea75ea392075ce412cd3f1868494c2dc8009e02d5b81",
+      "byteIdentical": true
+    },
+    "index.d.ts": {
+      "distributionSHA256": "7e68a35f4ea6467f82cf29ada0bd9f9a279d9f9d4ee1637d81067d79039afc13",
+      "rebuiltSHA256": "7e68a35f4ea6467f82cf29ada0bd9f9a279d9f9d4ee1637d81067d79039afc13",
+      "byteIdentical": true
+    }
+  },
+  "packageMetadataSemanticallyIdentical": true,
+  "note": "Original Vitest tests ran unmodified. Benchmark declarations are inventoried separately and are not included in this test count."
+}
