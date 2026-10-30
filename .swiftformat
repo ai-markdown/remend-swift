@@ -1,0 +1,7 @@
+# Formatting rules only; do not rewrite semantics.
+--rules consecutiveBlankLines,linebreakAtEndOfFile,indent,linebreaks,spaceAroundBraces,spaceAroundBrackets,spaceAroundGenerics,spaceAroundOperators,spaceInsideBraces,spaceInsideBrackets,spaceInsideGenerics,spaceInsideParens,trailingSpace
+--indent 4
+--linebreaks lf
+--tabwidth 4
+--swift-version 6
+--exclude .build,.swiftpm,upstream
