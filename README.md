@@ -1,6 +1,6 @@
 # Remend Swift
 
-A native Swift port of **remend 1.3.1**, the Markdown tail-repair utility from Vercel's Streamdown. The package uses Foundation and the Swift standard library. Building, testing, and running it do not require AI Markdown, a workspace checkout, JavaScript, or WebKit.
+A native Swift port of **remend 1.3.1**, the Markdown tail-repair utility from [Vercel's Streamdown](https://github.com/vercel/streamdown). The package uses Foundation and the Swift standard library. Building, testing, and running it do not require AI Markdown, a workspace checkout, JavaScript, or WebKit.
 
 ## Use
 
